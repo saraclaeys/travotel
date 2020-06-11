@@ -121,3 +121,15 @@ h1 span {
     background: white;
     color: #F0A800;
 }
+
+
+/*------------------ footer -------------------*/
+
+.mainfooter {
+    background: black;
+    color: #999;
+    margin-top: 2em;
+    padding: 2em;
+    min-height: 200px;
+    text-align: center;
+}
