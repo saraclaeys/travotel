@@ -54,3 +54,24 @@ a.hamburger:hover {
 .mainnav ul {
     display: none;
 }
+
+/*------------------ header -------------------*/
+
+.mainheader {
+    background: black url(../images/bg-header.jpg) no-repeat center bottom;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font: 500 2.5rem/1 "Montserrat Alternates", Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(53, 53, 53, 0.8);
+}
+
+h1 span {
+    display: block;
+}
