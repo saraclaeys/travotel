@@ -75,3 +75,45 @@ h1 {
 h1 span {
     display: block;
 }
+
+/*------------------ beschikbaarheid -----------------*/
+
+.beschikbaarheid {
+    background: rgba(0, 0, 0, 0.7);
+    width: 80vw;
+    padding: 2em;
+}
+
+.beschikbaarheid h2 {
+    font: 400 1.4rem/1 "Montserrat Alternates", Arial, sans-serif;
+    color: white;
+}
+
+.beschikbaarheid ul li {
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.95);
+    height: 100px;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.beschikbaarheid ul li:last-child {
+    padding: 0;
+}
+
+.beschikbaarheid ul li:last-child button {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #F0A800;
+    border: none;
+    color: white;
+    font: 500 1.3rem/1 "Montserrat Alternates", Arial, sans-serif;
+    cursor: pointer;
+    transition: background 500ms;
+}
+
+.beschikbaarheid ul li:last-child button:hover {
+    background: white;
+    color: #F0A800;
+}
