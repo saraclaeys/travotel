@@ -9,12 +9,12 @@ body {
     background: white;
 }
 
-/* navigatie----------------------------------------- */
+/*------------------ navigatie--------------------- */
 
 a {
     color: #F0A800;
     text-decoration: none;
-    transition: all 500ms;
+    transition: all 300ms;
 }
 
 a:hover {
@@ -53,6 +53,49 @@ a.hamburger:hover {
 
 .mainnav ul {
     display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    a.hamburger {
+        display: none;
+    }
+
+    .mainnav {
+        display: flex;
+    }
+
+    .mainnav ul {
+        width: calc(100% - 200px);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .mainnav ul li {
+        margin-left: 2em;
+    }
+
+    .mainnav a {
+        font-weight: 500;
+        color: white;
+    }
+
+    .mainnav a:hover {
+        color: #F0A800;
+        text-decoration: none;
+    }
+
+    .mainnav ul li.reserveer a {
+        background: #F0A800;
+        padding: 1em 1.5em;
+        border-radius: 5px;
+    }
+
+    .mainnav ul li.reserveer a:hover {
+        background: white;
+        color: #F0A800;
+    }
+
 }
 
 /*------------------ header -------------------*/
