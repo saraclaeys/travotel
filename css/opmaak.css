@@ -62,7 +62,8 @@ a.hamburger:hover {
     min-height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 120px;
 }
 
 h1 {
@@ -82,6 +83,9 @@ h1 span {
     background: rgba(0, 0, 0, 0.7);
     width: 80vw;
     padding: 2em;
+
+    position: relative;
+    margin: -180px auto 0;
 }
 
 .beschikbaarheid h2 {
@@ -94,7 +98,7 @@ h1 span {
     background: rgba(255, 255, 255, 0.95);
     height: 100px;
     margin-top: 1em;
-    padding: 1em;
+    padding: 2em;
 }
 
 .beschikbaarheid ul li:last-child {
