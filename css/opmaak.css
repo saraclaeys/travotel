@@ -120,6 +120,22 @@ h1 span {
     display: block;
 }
 
+@media screen and (min-width: 1000px) {
+    .mainheader {
+        min-height: 650px;
+        background-size: cover;
+        padding-top: 100px;
+    }
+
+    h1 {
+        font: 500 4rem/1 "Montserrat Alternates", Arial, sans-serif;
+    }
+
+    h1 span {
+        display: inline;
+    }
+}
+
 /*------------------ beschikbaarheid -----------------*/
 
 .beschikbaarheid {
@@ -163,6 +179,31 @@ h1 span {
 .beschikbaarheid ul li:last-child button:hover {
     background: white;
     color: #F0A800;
+}
+
+@media screen and (min-width: 1000px) {
+    .beschikbaarheid {
+        margin: -400px auto 0;
+        max-width: 1000px;
+    }
+
+    .beschikbaarheid ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .beschikbaarheid ul li {
+        width: 19%;
+        height: 200px;
+    }
+
+    .beschikbaarheid ul li:last-child {
+        width: 15%;
+    }
+
+    .beschikbaarheid ul li:last-child button {
+        height: 200px;
+    }
 }
 
 
