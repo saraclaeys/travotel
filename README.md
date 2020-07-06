@@ -1,4 +1,4 @@
 # travotel
 
-Link to the page:
+Website HTML - CSS
 https://saraclaeys.github.io/travotel/
